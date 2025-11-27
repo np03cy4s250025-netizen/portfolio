@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <nav class="navbar">
+            <span class="logo">Biplov Thapa</span>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" id="menu-button">☰</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Biplov Thapa</h1>
+            <p>Cyber Security Student</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm a student at Herald College, studying Cyber Security.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div id="projects-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/e4c02d32431337.5605bf79cdb42.jpg" alt="Project 1">
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/e4c02d32431337.5605bf79cdb42.jpg" alt="Project 2">
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/e4c02d32431337.5605bf79cdb42.jpg" alt="Project 3">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form-id">
+            <div class="contact">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="contact">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="contact">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone">
+            </div>
+
+            <div class="contact">
+                <label for="description">Description:</label>
+                <textarea id="description"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+
+            <div id="form-message"></div>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
