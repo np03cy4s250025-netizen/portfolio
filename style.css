@@ -11,7 +11,6 @@ body {
     min-height: 100vh;
 }
 
-/* VIDEO BACKGROUND */
 #video-background {
     position: absolute;
     top: 0;
@@ -21,8 +20,6 @@ body {
     object-fit: cover;
     z-index: -1;
 }
-
-/* HERO SECTION */
 #hero {
     position: relative;
     height: 100vh;
@@ -169,7 +166,6 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* PROJECTS GRID - CSS Grid */
 #projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -288,7 +284,6 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
 }
 
-/* FOOTER */
 footer {
     margin-top: 60px;
     padding: 3rem 2rem;
