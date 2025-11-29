@@ -6,10 +6,10 @@ function toggleMenu() {
     
     navLinks.classList.toggle('open');
 
-    // Update aria-expanded and button icon for accessibility
+   
     const isExpanded = navLinks.classList.contains('open');
     menuButton.setAttribute('aria-expanded', isExpanded);
-    menuButton.innerHTML = isExpanded ? '✕' : '☰'; // X vs Hamburger
+    menuButton.innerHTML = isExpanded ? '✕' : '☰'; 
 }
 
 
