@@ -1,4 +1,4 @@
-/* BASIC RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -364,7 +364,6 @@ button[type="submit"]:hover {
     min-height: 24px;
 }
 
-/* RESPONSIVE - Media Queries */
 @media screen and (min-width: 768px) {
     .navbar {
         flex-direction: row;
